@@ -5,8 +5,8 @@ on:
   pull_request:
     branches: ["main"]
 
-jobs: 
-  build: "first_job"
+jobs:
+  build: 
     runs-on: "ubuntu-latest"
-    container: python:3.9-slim
+    container: "python:3.9-slim"
     
